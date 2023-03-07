@@ -1,0 +1,10 @@
+.venv
+dist
+__pycache__/
+.coverage
+coverage.xml
+.pytest_cache
+*.pyc
+.idea/
+workfiles
+tests
