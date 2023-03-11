@@ -20,7 +20,8 @@ def get_diff_tree(first_file, second_file):
                 'key': key,
                 'value': first_file[key]
             }
-        elif isinstance(first_file[key], dict) and isinstance(second_file[key], dict):
+        elif isinstance(first_file[key], dict) and \
+                isinstance(second_file[key], dict):
             child = {
                 'type': 'nested',
                 'key': key,
