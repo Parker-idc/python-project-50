@@ -1,22 +1,22 @@
-name: test coverage
+name: pytest
 
 on: push
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - name: python setup
+        uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
-        run: 
+          python-version: "3.11"
+      - name: install dependencies
+        run: | 
           pip install poetry
-          make install
-      - name: Test & publish code coverage
+          poetry install
+          make tests
+      - name: code coverage
         uses: paambaati/codeclimate-action@v3.0.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
