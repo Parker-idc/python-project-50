@@ -8,5 +8,5 @@
 ### Examples
 [![calculate diff in flat files(JSON)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl.svg)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl)
 
-[![calculate diff in flat files(YAML)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLF.svg)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLF)
+[![calculate diff in flat files(YAML)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLFx.svg)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLFx)
 
