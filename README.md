@@ -6,4 +6,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/test_coverage)](https://codeclimate.com/github/Parker-idc/python-project-50/test_coverage)
 
 ### Examples
-[![calculate diff in flat files](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl.svg)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl)
+[![calculate diff in flat files(JSON)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl.svg)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl)
+
+[![calculate diff in flat files(YAML)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLF.svg)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLF)
+
