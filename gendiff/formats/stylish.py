@@ -10,7 +10,7 @@ def get_nested(value, depth, indent=' '):
                 result.append(f"{indent * depth}    {key}: {new_value}")
             else:
                 result.append(f"{indent * depth}    {key}: {nest_val}")
-        result.append(f'{indent * depth} }}')
+        result.append(f'{indent * depth}}}')
         return '\n'.join(result)
     if isinstance(value, bool):
         return str(value).lower()
@@ -30,8 +30,7 @@ def get_tag(sign):
 
 
 def output_node(dict, key, depth, sign):
-    return f"{' ' * depth}{sign}{dict['key']}: \
-        {get_nested(dict[key], depth + START_INDENT)}"
+    return f"{' ' * depth}{sign}{dict['key']}: {get_nested(dict[key], depth + START_INDENT)}"
 
 
 def format_to_stylish(tree, depth=0): # noqa: format_to_stylish: 15

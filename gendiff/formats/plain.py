@@ -1,20 +1,22 @@
 def check_value(value):
     if isinstance(value, dict):
-        value = "[complex value]"
+        return "[complex value]"
     if isinstance(value, bool):
-        value = str(value).lower()
+        return str(value).lower()
     if value is None:
-        value = 'null'
-    if isinstance(value, str):
-        value = f"'{value}'"
-    return value
+        return 'null'
+    if isinstance(value, int):
+        return str(value)
+    else:
+        return f"'{value}'"
+    
 
 
 def format_to_plain(tree, path=""):
     result = []
     for node in tree:
         current_path = f'{path}{node["key"]}'
-        if node["type"] == "add":
+        if node["type"] == "added":
             result.append(
                 f"Property '{current_path}' "
                 f"was added with value: "

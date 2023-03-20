@@ -7,4 +7,3 @@ coverage.xml
 *.pyc
 .idea/
 workfiles
-tests
