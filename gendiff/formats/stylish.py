@@ -30,7 +30,8 @@ def get_tag(sign):
 
 
 def output_node(dict, key, depth, sign):
-    return f"{' ' * depth}{sign}{dict['key']}: {get_nested(dict[key], depth + START_INDENT)}"
+    return f"{' ' * depth}{sign}{dict['key']}: \
+{get_nested(dict[key], depth + START_INDENT)}"
 
 
 def format_to_stylish(tree, depth=0): # noqa: format_to_stylish: 15

@@ -9,7 +9,6 @@ def check_value(value):
         return str(value)
     else:
         return f"'{value}'"
-    
 
 
 def format_to_plain(tree, path=""):
