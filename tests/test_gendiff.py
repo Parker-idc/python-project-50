@@ -1,4 +1,4 @@
-from gendiff import launch_gendiff
+from gendiff import generate_diff
 import pytest
 import os
 
@@ -26,7 +26,7 @@ def get_fixture_path(filename):
 def test_universal_case(file1, file2, result, formatter):
     with open(get_fixture_path(result), 'r') as res:
         result_content = "\n".join(res.read().splitlines())
-    assert launch_gendiff.generate_diff(
+    assert generate_diff(
         get_fixture_path(file1),
         get_fixture_path(file2),
         formatter) == result_content
