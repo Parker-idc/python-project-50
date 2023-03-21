@@ -30,4 +30,3 @@ def test_universal_case(file1, file2, result, formatter):
         get_fixture_path(file1),
         get_fixture_path(file2),
         formatter) == result_content
-    
