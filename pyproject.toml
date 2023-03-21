@@ -10,7 +10,7 @@ packages = [{include = "gendiff"}]
 gendiff = "gendiff.scripts.gendif:main"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pyyaml = "^6.0"
 
 
