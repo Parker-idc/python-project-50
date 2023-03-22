@@ -5,9 +5,9 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/test_coverage)](https://codeclimate.com/github/Parker-idc/python-project-50/test_coverage)
 
-[![flake8](https://github.com/Parker_idc/python-project-50/actions/workflows/lint/badge.svg)](https://github.com/Parker_idc/python-project-50/actions/workflows/flake8.yaml)
+[![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/flake8/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
 
-[![pytest](https://github.com/Parker_idc/python-project-50/actions/workflows/pytest/badge.svg)](https://github.com/Parker_idc/python-project-50/actions/workflows/pytest.yml)
+[![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/pytest/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
 
 
 ### Examples
