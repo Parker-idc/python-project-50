@@ -41,8 +41,50 @@ ___
 
 
 #### Calculate diff in flat files(JSON)
-[![calculate diff in flat files(JSON)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl.svg)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl)
+[![calculate diff in flat files(JSON)](https://asciinema.org/a/IMZrWvtiryoJmE07iRxnTNOK8.svg)](https://asciinema.org/a/IMZrWvtiryoJmE07iRxnTNOK8)
 
 #### Calculate diff in flat files(YAML)
-[![calculate diff in flat files(YAML)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLFx.svg)](https://asciinema.org/a/QAqb65VqIGbt3F7VjMYzpbLFx)
+[![calculate diff in flat files(YAML)](https://asciinema.org/a/Q35QP9kjFkvwFjiqU6zidPBeB.svg)](https://asciinema.org/a/Q35QP9kjFkvwFjiqU6zidPBeB)
+
+#### Calculate diff in recursive files(JSON)
+[![calculate diff in recursive files(JSON)](https://asciinema.org/a/oow2zLVCiHMaiWH35qvE7zuD1.svg)](https://asciinema.org/a/oow2zLVCiHMaiWH35qvE7zuD1)
+
+#### Calculate diff in recursive files(YAML)
+[![calculate diff in recursive files(YAML)](https://asciinema.org/a/3Dxjqzko4qlAr3dHtj5nQgMxd.svg)](https://asciinema.org/a/3Dxjqzko4qlAr3dHtj5nQgMxd)
+
+
+
+
+### Examples with Plain format:
+
+
+#### Calculate diff in flat files(JSON)
+[![calculate diff in flat files(JSON)](https://asciinema.org/a/yxk2xbZ2l1Is2MwOMQCIFWWlk.svg)](https://asciinema.org/a/yxk2xbZ2l1Is2MwOMQCIFWWlk)
+
+#### Calculate diff in flat files(YAML)
+[![calculate diff in flat files(YAML)](https://asciinema.org/a/jQ9WxLuIE9y15Emta4YMx1xde.svg)](https://asciinema.org/a/jQ9WxLuIE9y15Emta4YMx1xde)
+
+#### Calculate diff in recursive files(JSON)
+[![calculate diff in recursive files(JSON)](https://asciinema.org/a/MwkafKpzCqn2V7cuYWU3d6cLp.svg)](https://asciinema.org/a/MwkafKpzCqn2V7cuYWU3d6cLp)
+
+#### Calculate diff in recursive files(YAML)
+[![calculate diff in recursive files(YAML)](https://asciinema.org/a/UIQlnsgl4PzKN40CMODzpc4Aa.svg)](https://asciinema.org/a/UIQlnsgl4PzKN40CMODzpc4Aa)
+
+
+### Examples with Json format:
+
+
+#### Calculate diff in flat files(JSON)
+[![calculate diff in flat files(JSON)](https://asciinema.org/a/qjQwgBbrSpICx8T80l4NJF8Zm.svg)](https://asciinema.org/a/qjQwgBbrSpICx8T80l4NJF8Zm)
+
+#### Calculate diff in flat files(YAML)
+[![calculate diff in flat files(YAML)](https://asciinema.org/a/zKSJ3kurF1yxwUMvm8qqWx2OB.svg)](https://asciinema.org/a/zKSJ3kurF1yxwUMvm8qqWx2OB)
+
+#### Calculate diff in recursive files(JSON)
+[![calculate diff in recursive files(JSON)](https://asciinema.org/a/KhMahOLOLYKl8N936UJS2HFxT.svg)](https://asciinema.org/a/KhMahOLOLYKl8N936UJS2HFxT)
+
+#### Calculate diff in recursive files(YAML)
+[![calculate diff in recursive files(YAML)](https://asciinema.org/a/Cs4CuT9WejhLobfEqkFnrCY6j.svg)](https://asciinema.org/a/Cs4CuT9WejhLobfEqkFnrCY6j)
+
+
 
