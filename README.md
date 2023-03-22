@@ -1,14 +1,10 @@
 # Generate difference
 
 ### Hexlet tests, linter status, code climate and test coverage :
-[![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/hexlet-check/badge.svg)] \(https://github.com/Parker-idc/python-project-50/actions)
-
-<a href="https://codeclimate.com/github/Parker-idc/python-project-50/maintainability"><img src="https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/maintainability" /></a> \
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/test_coverage)](https://codeclimate.com/github/Parker-idc/python-project-50/test_coverage) \
-
-[![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/flake8/badge.svg)](https://github.com/Parker-idc/python-project-50/actions) \
-
+[![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/hexlet-check/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
+<a href="https://codeclimate.com/github/Parker-idc/python-project-50/maintainability"><img src="https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/maintainability" /></a>
+[![Test Coverage](https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/test_coverage)](https://codeclimate.com/github/Parker-idc/python-project-50/test_coverage)
+[![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/flake8/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
 [![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/pytest/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
 ___
 
@@ -20,21 +16,24 @@ ___
 
 ### Installation :
 
-1. ```
+1.
+```
 git clone https://github.com/Parker-idc/python-project-50.git
+```
 ```
 pip install --user git+https://github.com/Parker-idc/python-project-50.git
 ```
-2. This project using Poetry, install it for next steps.
-3. Go to ur utility directory with project and use `make build` command for creating the package.
-4. For installation use `python3 -m pip install --user dist/*.whl` command, or `make package-install`
+2.  This project using Poetry, install it for next steps.
+3.  Go to ur utility directory with project and use `make build` command for creating the package.
+4.  For installation use `python3 -m pip install --user dist/*.whl` command, or `make package-install`
 ___
 
 ### Commands :
 
-Use command `gendiff -f [format] file1 file2` to get a difference between **file1** and **file2**
+`gendiff -f [format] file1 file2` command to get a difference between **file1** and **file2**
 Select one of specific formats (**stylish**, **plain**, **json**) to get a corresponding output type.
-If you need a command help, use `gendiff -h`
+
+`gendiff -h` command help.
 ___
 
 ### Examples
