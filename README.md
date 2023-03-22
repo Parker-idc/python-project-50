@@ -5,6 +5,9 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/test_coverage)](https://codeclimate.com/github/Parker-idc/python-project-50/test_coverage)
 
+![flake8](https://github.com/Parker_idc/python-project-50/actions/workflows/lint/badge.svg)
+
+![pytest](https://github.com/Parker_idc/python-project-50/actions/workflows/pytest/badge.svg)
 ### Examples
 
 #### Calculate diff in flat files(JSON)

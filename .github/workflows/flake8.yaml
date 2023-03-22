@@ -1,14 +1,18 @@
-name: flake8
+name: lint
 
 on: push
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
+      - name: get code
       - uses: actions/checkout@v3
+      - name: python setup
       - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-      - run: pip install poetry
-      - run: make lint
+      run: | 
+          pip install poetry
+          poetry install
+          make tests
