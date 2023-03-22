@@ -16,7 +16,7 @@ ___
 
 ### Installation :
 
-1.
+1. Clone project.
 ```
 git clone https://github.com/Parker-idc/python-project-50.git
 ```
@@ -24,7 +24,7 @@ git clone https://github.com/Parker-idc/python-project-50.git
 pip install --user git+https://github.com/Parker-idc/python-project-50.git
 ```
 2.  This project using Poetry, install it for next steps.
-3.  Go to ur utility directory with project and use `make build` command for creating the package.
+3.  Go to ur local directory with project and use `make build` command for creating the package.
 4.  For installation use `python3 -m pip install --user dist/*.whl` command, or `make package-install`
 ___
 
@@ -36,7 +36,9 @@ Select one of specific formats (**stylish**, **plain**, **json**) to get a corre
 `gendiff -h` command help.
 ___
 
-### Examples
+### Examples with Stylish format:
+
+
 
 #### Calculate diff in flat files(JSON)
 [![calculate diff in flat files(JSON)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl.svg)](https://asciinema.org/a/9ePsOIDnpTzv5kzNZGuR0Ahhl)
