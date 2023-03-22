@@ -16,4 +16,4 @@ jobs:
         run: | 
             pip install poetry
             poetry install
-            make tests
+            make lint
