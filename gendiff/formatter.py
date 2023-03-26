@@ -1,6 +1,6 @@
-from gendiff.formats.json import format_to_json
-from gendiff.formats.stylish import format_to_stylish
-from gendiff.formats.plain import format_to_plain
+from gendiff.foramerts.json import format_to_json
+from gendiff.foramerts.stylish import format_to_stylish
+from gendiff.foramerts.plain import format_to_plain
 
 
 def to_format(format_name, data):
@@ -10,3 +10,4 @@ def to_format(format_name, data):
         return format_to_plain(data)
     if format_name == 'stylish':
         return format_to_stylish(data)
+    raise ValueError(f"{format_name} - wrong format")

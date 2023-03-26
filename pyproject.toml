@@ -1,13 +1,19 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "https://github.com/Parker-idc/python-project-50#description-"
 authors = ["Parker-idc <egor.kruchenkov@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Parker-idc/python-project-50"
+classifiers = [
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Terminals :: Games"
+]
 packages = [{include = "gendiff"}]
 
 [tool.poetry.scripts]
-gendiff = "gendiff.scripts.gendif:main"
+gendiff = "gendiff.scripts.gendiff:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"

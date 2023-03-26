@@ -29,42 +29,31 @@ def get_tag(sign):
     return f'{indent * 2}{tag[sign]}{indent}'
 
 
-def output_node(dict, key, depth, sign):
-    return f"{' ' * depth}{sign}{dict['key']}: \
-{get_nested(dict[key], depth + START_INDENT)}"
-
-
 def format_to_stylish(tree, depth=0): # noqa: format_to_stylish: 15
     result = ['{']
     for node in tree:
         if node["type"] == "same":
-            result.append(output_node(
-                node, 'value',
-                depth, get_tag("nothing")
-            ))
+            result.append(
+                f"{' ' * depth}{get_tag('nothing')}{node['key']}: "
+                f"{get_nested(node['value'], depth + START_INDENT)}")
 
         if node["type"] == "added":
-            result.append(output_node(
-                node, "value",
-                depth, get_tag("added")
-            ))
+            result.append(
+                f"{' ' * depth}{get_tag('added')}{node['key']}: "
+                f"{get_nested(node['value'], depth + START_INDENT)}")
 
         if node["type"] == "removed":
-            result.append(output_node(
-                node, "value",
-                depth, get_tag("removed")
-            ))
+            result.append(
+                f"{' ' * depth}{get_tag('removed')}{node['key']}: "
+                f"{get_nested(node['value'], depth + START_INDENT)}")
 
         if node["type"] == "changed":
-            result.append(output_node(
-                node, "old_value",
-                depth, get_tag("removed")
-            ))
+            result.append(
+                f"{' ' * depth}{get_tag('removed')}{node['key']}: "
+                f"{get_nested(node['old_value'], depth + START_INDENT)}")
 
-            result.append(output_node(
-                node, "new_value",
-                depth, get_tag("added")
-            ))
+            result.append(f"{' ' * depth}{get_tag('added')}{node['key']}: "
+                          f"{get_nested(node['new_value'], depth + START_INDENT)}") # noqa
 
         if node["type"] == "nested":
             result.append(

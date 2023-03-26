@@ -14,18 +14,18 @@ def get_diff_tree(first_file, second_file):
                 'key': key,
                 'value': first_file[key]
             }
-        elif first_file[key] == second_file[key]:
-            child = {
-                'type': 'same',
-                'key': key,
-                'value': first_file[key]
-            }
         elif isinstance(first_file[key], dict) and \
                 isinstance(second_file[key], dict):
             child = {
                 'type': 'nested',
                 'key': key,
                 'children': get_diff_tree(first_file[key], second_file[key])
+            }
+        elif first_file[key] == second_file[key]:
+            child = {
+                'type': 'same',
+                'key': key,
+                'value': first_file[key]
             }
         else:
             child = {

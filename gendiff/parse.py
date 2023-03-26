@@ -3,12 +3,16 @@ import yaml
 import os
 
 
-def get_data(file_path):
+def get_data(file):
+    with open(file, 'r') as f:
+        return parse(f, get_format_name(file))
+
+
+def get_format_name(file_path):
     if not os.path.isfile(file_path):
-        raise ValueError(f"{file_path} - wrong file")
+        raise ValueError(f"{file_path} - not a file")
     _, format_name = os.path.splitext(os.path.normpath(file_path))
-    with open(file_path, 'r') as file:
-        return parse(file, format_name)
+    return format_name
 
 
 def parse(file_data, format_name):
