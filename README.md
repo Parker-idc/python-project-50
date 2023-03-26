@@ -4,7 +4,6 @@
 [![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/hexlet-check/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
 <a href="https://codeclimate.com/github/Parker-idc/python-project-50/maintainability"><img src="https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/maintainability" /></a>
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bb1fb88528b23e27eae1/test_coverage)](https://codeclimate.com/github/Parker-idc/python-project-50/test_coverage)
-[![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/flake8/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
 [![Actions Status](https://github.com/Parker-idc/python-project-50/workflows/pytest/badge.svg)](https://github.com/Parker-idc/python-project-50/actions)
 ___
 
