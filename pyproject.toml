@@ -8,7 +8,7 @@ repository = "https://github.com/Parker-idc/python-project-50"
 classifiers = [
     "Operating System :: MacOS",
     "Programming Language :: Python :: 3.10",
-    "Topic :: Terminals :: Games"
+    "Topic :: Terminals"
 ]
 packages = [{include = "gendiff"}]
 
