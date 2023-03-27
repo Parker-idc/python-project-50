@@ -29,7 +29,7 @@ ___
 
 ### Commands :
 
-`gendiff -f [format] file1 file2` command to get a difference between **file1** and **file2**
+`gendiff -f [format] file1 file2` command to get a difference between **file1** and **file2**.
 Select one of specific formats (**stylish**, **plain**, **json**) to get a corresponding output type.
 
 `gendiff -h` command help.

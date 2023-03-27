@@ -52,8 +52,9 @@ def format_to_stylish(tree, depth=0): # noqa: format_to_stylish: 15
                 f"{' ' * depth}{get_tag('removed')}{node['key']}: "
                 f"{get_nested(node['old_value'], depth + START_INDENT)}")
 
-            result.append(f"{' ' * depth}{get_tag('added')}{node['key']}: "
-                          f"{get_nested(node['new_value'], depth + START_INDENT)}") # noqa
+            result.append(
+                f"{' ' * depth}{get_tag('added')}{node['key']}: "
+                f"{get_nested(node['new_value'], depth + START_INDENT)}")
 
         if node["type"] == "nested":
             result.append(
